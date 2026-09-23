@@ -41,9 +41,7 @@ This is different from ordinary tabular ML. The order of observations matters.
 For forecasting PM2.5:
 
 $$
-\hat{y}_{t+1:t+24}
-=
-f(X_{t-23:t})
+\hat{y}_{t+1:t+24} = f(X_{t-23:t})
 $$
 
 A 24-hour input contains the recent diurnal cycle. However, EDA should determine
